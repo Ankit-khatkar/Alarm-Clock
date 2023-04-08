@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    color: white;
+}
+#container{
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 389px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 50vh;
+    background-color: #1a1a1a;
+}
+#heading{
+    color: white;
+    font-family: system-ui;
+    position: relative;
+    top: -25%;
+}
+#time{
+    background-color: black;
+    height: 40px;
+    width: 180px;
+    color: white;
+    position: relative;
+    top: -19%;
+    font-family: sans-serif;
+    border-radius: 13px;
+    border: 2px solid white;
+}
+/* #time:hover{
+    cursor: pointer;
+} */
+input[type='time']::-webkit-calendar-picker-indicator{
+    filter: invert(95%) sepia(95%) saturate(3207%) hue-rotate(130deg) brightness(100%) contrast(50%);
+}
+.btn{
+    background-color: white;
+    height: 35px;
+    width: 90px;
+    font-family: sans-serif;
+    font-size: bold;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #111b14;
+    margin-left: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(162, 243, 146);
+    border-color: rgb(162, 243, 146);
+}
+#btn2{
+    display: none;
+}
+#alarm{
+    color: red;
+    position: relative;
+    top: 20%;
+    left: 46%;
+    display: none;
+}
